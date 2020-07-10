@@ -90,14 +90,13 @@
             <feature name="BackgroundGeolocation">
                 <param name="android-package" value="com.transistorsoft.cordova.bggeo.CDVBackgroundGeolocation"/>
             </feature>
-        		<!-- background-geolocation -->
-        <preference name="LICENSE_KEY" default="b20a0977e2009a675825ff84d12a6019ca7c150931e43afde8f6dc091cc8a04b" />
+
 		  <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
 			  <meta-data
 				android:name="com.transistorsoft.locationmanager.license_key"
-				android:value="$LICENSE_KEY" />
+				android:value="b20a0977e2009a675825ff84d12a6019ca7c150931e43afde8f6dc091cc8a04b" />
 		  </config-file>
-		  <!-- /background-geolocation -->
+
 
      </platform>
 
